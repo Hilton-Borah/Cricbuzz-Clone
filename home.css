@@ -1,0 +1,48 @@
+
+#ro_container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 22% 56% 22%;
+    margin: auto;
+}
+#ro_container img{
+    border-radius: 5px;
+}
+#ro_part2 a,#ro_part3 a{
+    text-decoration: none;
+    color: black;
+}
+#ro_part1 a:hover,#ro_part2 a:hover,#ro_part3 a:hover{
+    text-decoration: underline;
+}
+#ro_part2 h3:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#ro_photos a{
+    text-decoration: none;
+    color: black;
+}
+#ro_part1 p{
+    width: 55%;
+    font-size: 17px;
+}
+#ro_part2_div div{
+    display: flex;
+}
+#ro_part2_div img{
+    margin-right: 20px;
+}
+#ro_part3 img,p{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#ro_part2 h3{
+    color: blue;
+}
+#ro_part2_div h4{
+    color: blue;
+
+}
