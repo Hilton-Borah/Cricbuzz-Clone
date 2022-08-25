@@ -7,133 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/2516e3b900.js" crossorigin="anonymous"></script>
-    <style>
-        body {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        #hi_first {
-            /* border: 1px solid; */
-            width: 80%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: auto;
-            gap: 100px;
-            font-size: 20px;
-        }
-
-        .hi_dash {
-            width: 400px;
-            border-bottom: 3px solid rgb(207, 207, 207);
-        }
-
-        #hi_first1 {
-            display: flex;
-            gap: 20px;
-        }
-
-        #hi_first2 {
-            display: flex;
-            gap: 20px;
-
-        }
-
-        /* .same{
-            border: 1px solid;
-        } */
-
-        #hi_second {
-            display: flex;
-            justify-content: space-between;
-            width: 80%;
-            margin: auto;
-            margin-top: 50px;
-        }
-
-        .hi_same {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px;
-            border: 0.5px solid rgb(231, 231, 231);
-        }
-
-        .hi_same1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .hi_same>div:last-child {
-            font-weight: bold;
-            /* color: antiquewhite; */
-        }
-
-        #hi_second1 {
-            width: 43%;
-            font-size: 20px;
-        }
-
-        /* 
-        .hi_dash{
-            border:1px solid lightgray;
-        } */
-
-        #hi_username {
-            width: 500px;
-            height: 40px;
-            margin-bottom: 20px;
-            border: 0.5px solid rgb(192, 192, 192);
-            outline: lightblue;
-            border-radius: 5px;
-        }
-
-        #hi_email {
-            width: 500px;
-            height: 40px;
-            margin-bottom: 20px;
-            border: 0.5px solid rgb(192, 192, 192);
-            outline: lightblue;
-            border-radius: 5px;
-            background-color: rgb(237, 237, 237);
-
-        }
-
-        #hi_submit {
-            font-size: 18px;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            background-color: #009270;
-            color: white;
-            border: none;
-            display: flex;
-            text-align: center;
-            margin: auto;
-        }
-
-        #hi_avatar {
-            text-align: center;
-            font-size: 15px;
-            color: rgb(98, 98, 230);
-        }
-
-        #hi_avatar>img {
-            width: 60px;
-            border: 2px solid black;
-            border-radius: 50%;
-        }
-
-        .fa-solid{
-            margin-right: 10px;
-
-        }
-    </style>
+    <link rel="stylesheet" href="./scoreboard.css">
+<link rel="stylesheet" href="./afterlogin3.css">
 </head>
 
 <body>
+
+    <div class="same" id="hi_second_navbar">
+        <div style="background-color: #333333;margin-right: 40px; padding: 10px; padding-left: 20px;padding-right: 20px;margin-bottom: -3px;">MATCHES</div>
+        <div id="hi_second_navbar_inside"></div>
+        <div style="margin-left: 40px;margin-right: -20px;">All</div>
+    </div>
+
+
+
     <div id="hi_first">
         <div id="hi_first1">
             <div>MY ACCOUNT</div>
@@ -218,3 +105,4 @@
 </body>
 
 </html>
+<script src="./afterlogin2.js" type="module"></script>
