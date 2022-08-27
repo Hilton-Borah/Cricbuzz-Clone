@@ -5,23 +5,31 @@
 //   visit rapidapi => login,signup  =>  subscribe for free  =>  select matches and matches/list => copy API
 
 
+import {navbar, footer} from "./componanats/firstnav.js"
+
+let guptacontainer = document.getElementById("hi_first_navbar_inside")
+guptacontainer.innerHTML=navbar()
+
+let guptafooter = document.getElementById("gupta_footer")
+guptafooter.innerHTML=footer()
+
   //  piyush0746@gmail.com
-  const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '89c2bb4061mshd4bd3c3b7d698dfp113eb8jsne516feb819a0',
-		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
-	}
-};
+//   const options = {
+// 	method: 'GET',
+// 	headers: {
+// 		'X-RapidAPI-Key': '89c2bb4061mshd4bd3c3b7d698dfp113eb8jsne516feb819a0',
+// 		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+// 	}
+// };
 
 //     //  piyushfrommasaischool@gmail.com
-// const options = {
-//     method: "GET",
-//     headers: {
-//       "X-RapidAPI-Key": "2cf47c4ae4msh1ff17835303bffep1c595fjsn717d7ecc5244",
-//       "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
-//     },
-//   };
+const options = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "2cf47c4ae4msh1ff17835303bffep1c595fjsn717d7ecc5244",
+      "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
+    },
+  };
 
     //   piyushkrme@gmail.com 
 // const options = {
@@ -161,7 +169,11 @@ fetch('https://cricbuzz-cricket.p.rapidapi.com/matches/v1/recent', options)
   }
   
 
+  document.querySelector("#gotohome").addEventListener("click", gotohomepage)
 
+  function gotohomepage(){
+    window.location.href="index.html"
+  }
 
 
 

@@ -1,4 +1,17 @@
 
+import {navbar, footer} from "./componanats/firstnav.js"
+
+let guptacontainer = document.getElementById("hi_first_navbar_inside")
+guptacontainer.innerHTML=navbar()
+
+let guptafooter = document.getElementById("gupta_footer")
+guptafooter.innerHTML=footer()
+
+
+
+
+
+
 //  Piyuswh kumar (fw19_0701)
 
 
@@ -22,22 +35,22 @@
 
 
   // //  piyushkrme@gmail.com
-  // const options = {
-  // 	method: 'GET',
-  // 	headers: {
-  // 		'X-RapidAPI-Key': '3d06a6ac36msh147abc70433ca94p19e7c6jsne335b42b0a2d',
-  // 		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
-  // 	}
-  // };
+  const options = {
+  	method: 'GET',
+  	headers: {
+  		'X-RapidAPI-Key': '3d06a6ac36msh147abc70433ca94p19e7c6jsne335b42b0a2d',
+  		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+  	}
+  };
 
   //          // piyushme102@gmail.com
-  const options = {
-    method: 'GET',
-    headers: {
-        'X-RapidAPI-Key': '5879ea99d2mshc21ab04fc31f74ep1aeb50jsn426bb31923d7',
-        'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
-    }
-};
+//   const options = {
+//     method: 'GET',
+//     headers: {
+//         'X-RapidAPI-Key': '5879ea99d2mshc21ab04fc31f74ep1aeb50jsn426bb31923d7',
+//         'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+//     }
+// };
 
 let data;
 
@@ -140,6 +153,13 @@ function pi_appendschedule(data) {
     }
     container.append(pimatchdatediv);
   });
+}
+
+
+document.querySelector("#gotohome").addEventListener("click", gotohomepage)
+
+function gotohomepage(){
+  window.location.href="index.html"
 }
 
 // matchScheduleList: Array(2)
