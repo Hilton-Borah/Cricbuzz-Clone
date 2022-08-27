@@ -1,3 +1,16 @@
+
+import {navbar, footer} from "./componanats/firstnav.js"
+
+let guptacontainer = document.getElementById("hi_first_navbar_inside")
+guptacontainer.innerHTML=navbar()
+
+let guptafooter = document.getElementById("gupta_footer")
+guptafooter.innerHTML=footer()
+
+
+
+
+
 import appendsecond from "./componanats/secondnav.js"
 
 
@@ -106,4 +119,9 @@ function appenddata(el) {
 }
 
 
+ document.getElementById("an_profile").addEventListener( "click", anpiprofile);
+
+ function anpiprofile(){
+    window.location.href="afterlogin1.html"
+ }
 

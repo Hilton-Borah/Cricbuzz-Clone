@@ -1,3 +1,13 @@
+
+import {navbar, footer} from "./componanats/firstnav.js"
+
+let guptacontainer = document.getElementById("hi_first_navbar_inside")
+guptacontainer.innerHTML=navbar()
+
+let guptafooter = document.getElementById("gupta_footer")
+guptafooter.innerHTML=footer()
+
+
 import appendsecond from "./componanats/secondnav.js"
 
 
@@ -40,7 +50,7 @@ fetch('https://unofficial-cricbuzz.p.rapidapi.com/matches/list?matchState=recent
     })
 
     let bag="";
-    let user = localStorage.getItem("user")
+    let user = localStorage.getItem("hiuser")
 
     for (let i=0;i<10;i++){
         bag=bag+user[i]
@@ -50,4 +60,12 @@ fetch('https://unofficial-cricbuzz.p.rapidapi.com/matches/list?matchState=recent
     document.getElementById("hi_email").value=user
 
     console.log(user)
+
+
+    document.querySelector("#hilogout").addEventListener("click", hiltonlogout)
+
+    function hiltonlogout(){
+        window.location.href="index.html"
+        
+    }
 

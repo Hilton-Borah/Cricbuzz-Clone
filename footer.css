@@ -1,0 +1,70 @@
+#An-banner7 {
+    width: 100%;
+    height: 240px;
+    /* border: 1px solid red;   */
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: rgb(74, 74, 74);
+  }
+  .An-bottom1 {
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid red; */
+    /* margin-right: 200px ; */
+    color: white;
+    text-align: left;
+  }
+  .An-bottom4 {
+    width: 30%;
+    height: 250px;
+    /* border: 1px solid red;  */
+    /* margin-right: 200px ; */
+    text-align: left;
+  }
+  .An-bottom4 > img {
+    width: 30%;
+    height: 180px;
+    margin-left: 50%;
+    margin-bottom: 30px;
+  }
+  .An-bottom2 {
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid red; */
+    /* margin-right: 200px; */
+    color: white;
+    text-align: left;
+  }
+  .An-bottom3 {
+    width: 20%;
+    height: 180px;
+    /* border: 1px solid red; */
+    /* margin-right: 200px; */
+    color: white;
+    text-align: left;
+    justify-content: space-between;
+  }
+  #Ancopyright {
+    width: 100%;
+    border: 1px solid grey;
+    height: 40px;
+    background-color: rgb(74, 74, 74);
+  }
+  .An-line {
+    text-align: center;
+    color: white;
+    font: bold;
+  }
+  .An-bottom2 a {
+    text-decoration: none;
+    color: white;
+  }
+  .An-bottom3 a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+  }
+  #banner7 fa-solid {
+    gap: 4px;
+  }

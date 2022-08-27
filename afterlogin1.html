@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="/afterlogin1.css">
     <script src="https://kit.fontawesome.com/2516e3b900.js" crossorigin="anonymous"></script>
     <link rel="icon" href="https://www.cricbuzz.com/images/cb_favicon.ico" type="image/x-icon">
-    <style>
-
-    </style>
+    
+    
 </head>
 
 <body style="background-color:#e3e6e3;">
+
+
 
     <div id="hi_navbar">
         <img class="hi_img" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
@@ -53,12 +54,12 @@
 
 </html>
 
-<script>
+<script >
 
 function emailinput(){
     alert("OTP sent! Please check yout email")
     let input=document.getElementById("hi_input").value;
-    localStorage.setItem("user",input)
+    localStorage.setItem("hiuser",input)
     console.log(input)
     window.location.href="afterlogin2.html"
 }

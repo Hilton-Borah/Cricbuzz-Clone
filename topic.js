@@ -1,3 +1,12 @@
+import {navbar, footer} from "./componanats/firstnav.js"
+
+let guptacontainer = document.getElementById("hi_first_navbar_inside")
+guptacontainer.innerHTML=navbar()
+
+let guptafooter = document.getElementById("gupta_footer")
+guptafooter.innerHTML=footer()
+
+
 const options = {
     method: 'GET',
     headers: {
@@ -11,8 +20,15 @@ const options = {
         // "X-RapidAPI-Key": "2cf47c4ae4msh1ff17835303bffep1c595fjsn717d7ecc5244",
         // "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
 
-        'X-RapidAPI-Key': '3d06a6ac36msh147abc70433ca94p19e7c6jsne335b42b0a2d',
-  	    'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+        // 'X-RapidAPI-Key': '3d06a6ac36msh147abc70433ca94p19e7c6jsne335b42b0a2d',
+  	    // 'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+
+
+        //   "X-RapidAPI-Key": "2cf47c4ae4msh1ff17835303bffep1c595fjsn717d7ecc5244",
+        //   "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
+
+          'X-RapidAPI-Key': '89c2bb4061mshd4bd3c3b7d698dfp113eb8jsne516feb819a0',
+		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
     }
 };
 
@@ -117,6 +133,13 @@ async function gettopic() {
     }
 }
 gettopic();
+
+
+document.querySelector("#gotohome").addEventListener("click", gotohomepage)
+
+function gotohomepage(){
+  window.location.href="index.html"
+}
 
 
 

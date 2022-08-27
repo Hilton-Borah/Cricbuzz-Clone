@@ -1,3 +1,15 @@
+import {navbar, footer} from "./componanats/firstnav.js"
+
+let guptacontainer = document.getElementById("hi_first_navbar_inside")
+guptacontainer.innerHTML=navbar()
+
+let guptafooter = document.getElementById("gupta_footer")
+guptafooter.innerHTML=footer()
+
+
+
+
+
 const options = {
 	method: 'GET',
 	headers: {
@@ -141,6 +153,13 @@ cont.innerHTML=null;
         }
       }
       getnews();
+
+
+      document.querySelector("#gotohome").addEventListener("click", gotohomepage)
+
+function gotohomepage(){
+  window.location.href="index.html"
+}
          
   
           
