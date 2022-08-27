@@ -1,0 +1,73 @@
+#ni_main {
+    border: 1px solid gainsboro;
+    margin: auto;
+    width: 100%;
+    display: flex;
+
+
+}
+
+
+
+#ni_contanier {
+    width: 65%;
+    border: 1px solid gainsboro;
+    padding: 15px;
+
+}
+
+#ni_news_content {
+
+    display: flex;
+    padding: 5px;
+
+}
+
+#ni_LP {
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+#ni_image1>img {
+
+    width: 100%;
+
+    border-radius: 5px;
+}
+
+
+
+#ni_text {
+    padding-left: 4%;
+
+}
+
+hr {
+    width: 97%;
+
+}
+
+
+
+#ni_mainLN {
+
+    width: 35%;
+}
+
+#ni_latestnews {
+    padding: 15px;
+}
+#ni_morenews{
+    /* border: 1px solid; */
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(0,146,112);
+    cursor: pointer;
+    color: white;
+}
