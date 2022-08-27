@@ -39,4 +39,15 @@ fetch('https://unofficial-cricbuzz.p.rapidapi.com/matches/list?matchState=recent
         console.log(err)
     })
 
+    let bag="";
+    let user = localStorage.getItem("user")
+
+    for (let i=0;i<10;i++){
+        bag=bag+user[i]
+    }
+
+    document.getElementById("hi_username").value=bag
+    document.getElementById("hi_email").value=user
+
+    console.log(user)
 

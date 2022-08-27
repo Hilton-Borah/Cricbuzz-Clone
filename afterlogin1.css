@@ -2,9 +2,12 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* .same{ */
-    /* border: 1px solid ; */ 
-/* } */
+/* .same{
+    border: 1px solid ; 
+ } */
+
+
+
 
 #hi_navbar {
     background-color: #009270;
@@ -51,15 +54,34 @@ body {
 
 #hi_input{
     border: none;
-    border-bottom: 1px solid;
-    /* text-align: center; */
-    display: flex;
-    margin: auto;
     width: 450px;
-    margin-top: 90px;
+    /* margin-top: 90px; */
     height: 40px;
     outline:white;
+    font-size: 20px;
 }
+
+#hihihi{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+}
+
+#hi_inside_input{
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid;
+}
+
+.fa-solid{
+    /* margin-top: 140px; */
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
 
 #hi_input::placeholder{
 
