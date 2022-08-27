@@ -1,8 +1,8 @@
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'e4902ee446mshb4f0aa38d2ab799p105182jsn0d2cf513d531',
-		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+		// 'X-RapidAPI-Key': 'e4902ee446mshb4f0aa38d2ab799p105182jsn0d2cf513d531',
+		// 'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
 
     // 'X-RapidAPI-Key': 'cf6425b08bmsh5787892ec04c87ep1ae0eajsne10f091df267',
 		// 'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
@@ -10,6 +10,9 @@ const options = {
 //piyush
     // "X-RapidAPI-Key": "2cf47c4ae4msh1ff17835303bffep1c595fjsn717d7ecc5244",
     // "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
+
+    'X-RapidAPI-Key': '3d06a6ac36msh147abc70433ca94p19e7c6jsne335b42b0a2d',
+  	'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
 	}
 };
 

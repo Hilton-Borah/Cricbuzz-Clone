@@ -1,0 +1,90 @@
+#ni_main {
+    border: 1px solid gainsboro;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    /* padding: 15px; */
+
+}
+
+
+#ni_contanier {
+    width: 65%;
+    border: 1px solid gainsboro;
+    padding: 15px;
+
+}
+
+#ni_news_content {
+    /* border: 1px solid; */
+    display: flex;
+    padding: 5px;
+    justify-content: start;
+    align-items: center;
+}
+
+#ni_LP {
+    display: flex;
+    /* justify-content: ;  */
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+#ni_image1 {
+    width: 15%;
+}
+
+#ni_image1>img {
+    height: 100%;
+    width: 120%;
+    border-radius: 5px;
+}
+
+#ni_image2>img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+#ni_text {
+    padding-left: 4%;
+
+}
+
+hr {
+    width: 97%;
+
+}
+
+#ni_LP_container {
+    /* border: 1px solid; */
+    padding: 15px;
+
+}
+
+#ni_mainLP {
+    /* border: 1px solid; */
+    width: 35%;
+}
+
+#ni_lphoto {
+    /* border: 1px solid red; */
+    /* width: 120%; */
+    padding: 15px;
+}
+
+#ni_textLP {
+    padding-left: 5px;
+}
+
+#ni_image2>img {
+    border-radius: 5px;
+}
+#ni_morephoto{
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(0,146,112);
+    cursor: pointer;
+    color: white;
+}
