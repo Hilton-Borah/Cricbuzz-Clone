@@ -1,0 +1,53 @@
+
+  /* Piyuswh kumar (fw19_0701) */
+
+body{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI,
+     Roboto, Helvetica, Arial, sans-serif;
+  }
+  #pi_container{
+   /* border: solid; */
+   padding-left: 3%;
+  }
+  #pi_typesofgame> button{
+    margin-left: 10px;
+    width: 12%;
+    height: 35px;
+    border-radius: 30px;
+    border-color: transparent;
+    cursor: pointer;
+    background-color: #cfe0db;
+  }
+
+  #pi_typesofgame> button:hover{
+    background-color: #028062;
+    color: white;
+  }
+  .piseriesName{
+    background-color: #ecebeb;
+    
+  }
+  .picountryvscountry{
+   text-decoration: underline;
+   color: #222222;
+  }
+  .pistatus{
+   color: #1866DB
+  }
+  .pifulldetail{
+    background-color: #ecebeb;
+    padding: 2%;
+    width: 30%;
+  }
+  /* #pi_container:nth-child(1) */
+  /* .pimatchdiv{
+    border: solid 1px red;
+  }
+  .pimatchdiv{
+    border: solid 1px blue;
+  }
+  .pitesttypediv{
+    border: solid 1px black;
+  } */

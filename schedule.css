@@ -1,0 +1,40 @@
+
+ /* Piyuswh kumar (fw19_0701) */
+
+    body {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+          Helvetica, Arial, sans-serif;
+      }
+      #pi_typesofgame> button{
+          margin-left: 10px;
+          width: 12%;
+          height: 35px;
+          border-radius: 30px;
+          border-color: transparent;
+          cursor: pointer;
+          background-color: #cfe0db;
+        }
+  
+        #pi_typesofgame> button:hover{
+          background-color: #028062;
+          color: white;
+        }
+      .pidatescudelofmatch {
+        background-color: #ecebeb;
+        padding: 10px;
+      }
+      .piparticularmatchdiv {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto);
+        gap: 30px;
+        padding: 10px;
+      }
+      .pigroundaddress {
+        color: #666666;
+      }
+      .picountryvscountry {
+        font-size: large;
+      }
