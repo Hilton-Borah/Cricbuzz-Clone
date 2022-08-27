@@ -1,0 +1,120 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .same{
+    border: 1px solid ; 
+ } */
+
+
+
+
+#hi_navbar {
+    background-color: #009270;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.hi_img {
+    width: 150px;
+}
+
+#hi_body {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 0.5px solid lightgray;
+    background-color: white;
+    margin-top: 8px;
+}
+
+#hi_home {
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-around */
+    
+}
+
+#hi_transparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hi_body2 {
+    /* margin-top: -40px; */
+    text-align: center;
+    line-height: 20px;
+    background-color: white;
+}
+
+#hi_input{
+    border: none;
+    width: 450px;
+    /* margin-top: 90px; */
+    height: 40px;
+    outline:white;
+    font-size: 20px;
+}
+
+#hihihi{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+}
+
+#hi_inside_input{
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid;
+}
+
+.fa-solid{
+    /* margin-top: 140px; */
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+
+#hi_input::placeholder{
+
+    font-size: 20px;
+}
+
+#hi_in{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 5px;
+}
+
+#hi_button{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    /* width: 20%; */
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #068769;
+    font-size: 22px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 350px;
+}
+
+#hi_button:hover{
+    background-color: #06c296;
+}

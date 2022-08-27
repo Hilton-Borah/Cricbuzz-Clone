@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./afterlogin1.css">
+    <link rel="icon" href="https://www.cricbuzz.com/images/cb_favicon.ico" type="image/x-icon">
+    <style>
+        #hi_body3{
+            width: 27%;
+            display: flex;
+            margin: auto;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .hi_square{
+            width: 25%;
+            height: 45px;
+            /* display: flex; */
+            margin: auto;
+            text-align: center;
+            outline: none;
+            border: 0.5px solid rgb(212, 211, 211);
+            /* padding: 50%; */
+        }
+
+        #hi_submit{
+            width: 100%;    
+            text-align: center;
+        }
+
+        #hi_submit>button{
+            width: 21%;
+            background-color: #009270;
+            border: none;
+            color: white;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        
+        #hi_res{
+            text-align: center;
+            color: rgb(65, 142, 214);
+            margin-top: 30px;
+            font-size: 20px;
+            /* margin-bottom: 100px; */
+        }
+
+        #time{
+            /* /* display: flex; */
+            /* margin-top: 40px;  */
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            /* margin-bottom: 200px; */
+        }
+
+        #hi_need{
+            color: rgb(78, 149, 216);
+            text-align: center;
+            /* font-weight: bolder; */
+            font-size: 17px;
+            margin-top: 100px;
+        }
+
+        #hi_invalid{
+            text-align: center;
+            color: red;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body style="background-color: 
+#e3e6e3 ;">
+    <div id="hi_navbar">
+        <img class="hi_img" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+    </div>
+
+    <div id="hi_body">
+        <div id="hi_transparent" class="same">
+            <div id="hi_home" class="same">
+                <div class="same" style="font-weight: 500;font-size: 20px; color: rgb(58, 58, 58);">Home ></div>
+                <h3 style="padding-left: 5px;">Account</h3>
+            </div>
+            <div class="same"><img class="hi_img" src="https://www.cricbuzz.com/images/cb_logo_plus_color.svg" alt="">
+            </div>
+        </div>
+        <hr style="border: 0.5px solid rgb(227, 227, 227); margin-bottom: -10px;">
+        <div id="hi_body2">
+            <h2 style="padding-top: 130px;">Enter the 6 digit OTP</h2>
+            <div style="font-weight: 500;font-size: 20px; color: rgb(58, 58, 58);margin-top: -3px;">OTP sent to hiltonborah123@gmail.com
+            </div>
+            <div style="font-size: 17px; color:rgb(85, 85, 85);margin-top: 20px;">In case you don't find it, check your
+                spam folder</div>
+        </div>
+
+        <div id="hi_body3">
+            <input id="one" class="hi_square" type="text"><input id="two" class="hi_square" type="text"><input id="three" class="hi_square type="text"><input id="four" class="hi_square type="text"><input id="five" class="hi_square type="text"><input id="six" class="hi_square type="text">
+        </div>
+
+        <div id="hi_submit"><button  onclick="byclicking()">SUBMIT</button></div>
+
+        <div id="hi_res">RESEND OTP</div>
+
+        <!-- 
+        <div>
+            <input  id="hi_input" type="text" name="" id="" placeholder="Enter your email id">
+        </div>
+
+        <div id="hi_in"><input id="hi_input2" type="checkbox" ><p>I agree with the <span>
+            <a style="text-decoration: none;color: 
+            #3773eb;" href="">Terms of Use</a>
+        </span> and <span><a  style="text-decoration: none;color: 
+            #2d6ff4;"" href="">Privacy Policy</a></span> of Cricbuzz</p></div>
+        <div><button id="hi_button">Continue</button></div>  -->
+            <div id="time">02:00</div>
+            <div id="hi_invalid"></div>
+
+            <div id="hi_need">Need help?</div>
+</body>
+
+</html>
+
+<script>
+
+    let id;
+
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+  id =  setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+window.onload = function () {
+    var fiveMinutes = 60 * 2,
+        display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+};
+
+
+function byclicking(){
+    document.getElementById("hi_invalid").innerHTML=""
+    let one = document.getElementById("one").value;
+    let two = document.getElementById("two").value;
+    let three = document.getElementById("three").value;
+    let four = document.getElementById("four").value;
+    let five = document.getElementById("five").value;
+    let six = document.getElementById("six").value;
+
+
+    if (one == 7 && two == 7 && three == 1 && four == 7 && five == 3 && six == 4){
+        window.location.href="afterlogin3.html"
+    } else {
+        let div1=document.createElement("div")
+        div1.innerText="Invalid OTP"
+        document.getElementById("hi_invalid").append(div1)
+        document.getElementById("time").innerHTML=""
+        div1.style.marginBottom="50px"
+        div1.style.marginTop="30px"
+        
+
+        clearTimeout(id)
+    }
+}
+
+
+
+</script>

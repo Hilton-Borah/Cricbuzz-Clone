@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link style="border-radius: 50%;" rel="icon" href="https://play-lh.googleusercontent.com/DR77tjTRELjjz08osmWgvIFyUvkbQItRf0II8r-eaIzLDOH9YGxSIfIrcToj3IOriyc=w240-h480-rw">
+    <link rel="stylesheet" href="/afterlogin1.css">
+    <script src="https://kit.fontawesome.com/2516e3b900.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://www.cricbuzz.com/images/cb_favicon.ico" type="image/x-icon">
+    <style>
+
+    </style>
+</head>
+
+<body style="background-color:#e3e6e3;">
+
+    <div id="hi_navbar">
+        <img class="hi_img" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+    </div>
+
+    <div id="hi_body">
+        <div id="hi_transparent" class="same">
+            <div id="hi_home" class="same">
+                <div class="same" style="font-weight: 500;font-size: 20px; color: rgb(58, 58, 58);">Home ></div>
+                <h3 style="padding-left: 5px;">Account</h3>
+            </div>
+            <div class="same"><img class="hi_img" src="https://www.cricbuzz.com/images/cb_logo_plus_color.svg" alt=""></div>
+        </div>
+        <hr style="border: 0.5px solid rgb(227, 227, 227); margin-bottom: -20px;">
+        <div id="hi_body2">
+            <h1 style="padding-top: 130px;">Login / Sign Up</h1>
+            <div style="font-weight: 500;font-size: 20px; color: rgb(58, 58, 58);">We will send OTP to your email id</div>
+        </div>
+
+        <div id="hihihi" class="same">
+            <div id="hi_inside_input"><i class="fa-solid fa-envelope"></i>
+                <input  id="hi_input" type="text" name="" id="" placeholder="Enter your email id"></div>
+        </div>
+
+        <div id="hi_in"><input id="hi_input2" type="checkbox" ><p>I agree with the <span>
+            <a style="text-decoration: none;color: 
+            #3773eb;" href="">Terms of Use</a>
+        </span> and <span><a  style="text-decoration: none;color: 
+            #2d6ff4;"" href="">Privacy Policy</a></span> of Cricbuzz</p></div>
+        <div><button onclick="emailinput()" id="hi_button">Continue</button></div>    
+</div>
+
+
+</body>
+
+</html>
+
+<script>
+
+function emailinput(){
+    alert("OTP sent! Please check yout email")
+    let input=document.getElementById("hi_input").value;
+    localStorage.setItem("user",input)
+    console.log(input)
+    window.location.href="afterlogin2.html"
+}
+
+
+
+
+</script>
