@@ -7,19 +7,19 @@ function navbar(){
       <img id="gotohome" class="imgAn" src="https://www.cricbuzz.com/images/cb_logo.svg">
     </div>
     <div class="banAn1">
-<h4><a href="livescores.html">Live Score</a> </h4>
+<h4  id="cursorr"><a href="livescores.html">Live Score</a> </h4>
     </div>
 
     <div class="banAn1">
-        <h4><a href="schedule.html">Schedule</a> </h4>
+        <h4 id="cursorr"><a href="schedule.html">Schedule</a> </h4>
     </div>
     <div class="banAn1">
-    <h4><a href="letestnews.html">News</a></h4> 
+    <h4  id="cursorr"><a href="letestnews.html">News</a></h4> 
 
     </div>
     <div class="banAn1">
         <ul class="navbar-item">
-            <li> <h4> <a href="topic.html">Topics</a> </h4>
+            <li> <h4  id="cursorr"> <a href="topic.html">Topics</a> </h4>
                 
             
             
@@ -50,7 +50,7 @@ function navbar(){
 
     <div class="banAn1">
     <ul class="navbar-item">
-        <li> <h4> Archieves</h4>
+        <li  id="cursorr"> <h4> Archieves</h4>
 
 
         <!-- <div class="navbar-submenu">
@@ -74,7 +74,7 @@ function navbar(){
     <div class="banAn1">
     <ul class="navbar-item">
         <li>
-            <h4> Teams</h4>
+            <h4  id="cursorr"> Teams</h4>
 
 
             <!--<div class="navbar-submenu">
@@ -103,37 +103,45 @@ function navbar(){
 
     <div class="banAn1">
     <ul class="navbar-item">
-        <li><h4> Videos</h4>
+        <li  id="cursorr"><h4> Videos</h4>
             
-            <div class="navbar-submenu">
+        <!-- <div class="navbar-submenu">
                 <ul>
                     <li>All Videos</li>
                     <li>Categories</li>
                     <li>Playlists</li>
                 </ul>
             </div>
+            -->
+
+
         </li>
     </div> 
 
 
      <div class="banAn1">
     <ul class="navbar-item">
-        <li>  <h4> Rankings</h4>
+        <li>  <h4  id="cursorr"> Rankings</h4>
+
+
             
-            <div class="navbar-submenu">
+           <!-- <div class="navbar-submenu">
                 <ul>
                     <li>ICC Ranking-Women</li>
                     <li>ICC Ranking-Men</li>
                 </ul>
-            </div>
+            </div>  -->
+
+       
+
         </li>
     </div>
     
     <div class="banAn1">
     <ul class="navbar-item">
-        <li><h4>  More</h4>
+        <li><h4  id="cursorr">  More</h4>
            
-            <div class="navbar-submenu">
+        <!--<div class="navbar-submenu">
                 <ul>
                     <li>World Test Championship</li>
                     <li>World Cup Super League</li>
@@ -143,12 +151,15 @@ function navbar(){
                     <li>Careers</li>
                     <li>Contact Us</li>
                 </ul>
-            </div>
+            </div>  -->
+
+
+
         </li> 
      </div>
     
     <div class="BanAn1">
-        <button class=buttonn> Criccbuzz Plus</button>
+        <button class="buttonn"> Cricbuzz Plus</button>
     </div>
     <div class="BanAnn1">
         <!-- <img id="iconAn" src="https://tse1.mm.bing.net/th?id=OIP.NPPzQguxZVlOvXqD3HaZBQHaHc&pid=Api&rs=1&c=1&qlt=95&w=120&h=121">
