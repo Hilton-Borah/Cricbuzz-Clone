@@ -69,3 +69,9 @@ fetch('https://unofficial-cricbuzz.p.rapidapi.com/matches/list?matchState=recent
         
     }
 
+
+    document.querySelector("#hi_submit").addEventListener("click", gotoindex)
+    function gotoindex(){
+        window.location.href="index.html"
+        
+    }
