@@ -21,6 +21,10 @@
           background-color: #028062;
           color: white;
         }
+        #pi_hedding, #pi_typesofgame , #pi_schedulecontainer{
+          padding-left: 30px;
+        }
+
       .pidatescudelofmatch {
         background-color: #ecebeb;
         padding: 10px;

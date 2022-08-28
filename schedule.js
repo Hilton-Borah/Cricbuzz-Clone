@@ -25,23 +25,23 @@ guptafooter.innerHTML=footer()
 // };
 
    //piyushfrommasaischool@gmail.com
-  // const options = {
-  //   method: "GET",
-  //   headers: {
-  //     "X-RapidAPI-Key": "2cf47c4ae4msh1ff17835303bffep1c595fjsn717d7ecc5244",
-  //     "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
-  //   },
-  // };
+  const options = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "2cf47c4ae4msh1ff17835303bffep1c595fjsn717d7ecc5244",
+      "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
+    },
+  };
 
 
   // //  piyushkrme@gmail.com
-  const options = {
-  	method: 'GET',
-  	headers: {
-  		'X-RapidAPI-Key': '3d06a6ac36msh147abc70433ca94p19e7c6jsne335b42b0a2d',
-  		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
-  	}
-  };
+  // const options = {
+  // 	method: 'GET',
+  // 	headers: {
+  // 		'X-RapidAPI-Key': '3d06a6ac36msh147abc70433ca94p19e7c6jsne335b42b0a2d',
+  // 		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+  // 	}
+  // };
 
   //          // piyushme102@gmail.com
 //   const options = {

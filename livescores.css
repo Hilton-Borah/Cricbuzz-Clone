@@ -25,6 +25,7 @@ body{
     background-color: #028062;
     color: white;
   }
+  
   .piseriesName{
     background-color: #ecebeb;
     
@@ -41,6 +42,9 @@ body{
     padding: 2%;
     width: 30%;
   }
+  #pi_hedding, #pi_typesofgame{
+    padding-left: 30px;
+  }
   /* #pi_container:nth-child(1) */
   /* .pimatchdiv{
     border: solid 1px red;
@@ -51,3 +55,6 @@ body{
   .pitesttypediv{
     border: solid 1px black;
   } */
+
+
+ 
